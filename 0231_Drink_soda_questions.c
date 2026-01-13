@@ -13,6 +13,6 @@ int main()
 		total += empty / 2;
 		empty = empty / 2 + empty % 2;
 	}
-	printf("total = &d\n", total);
+	printf("total = %d\n", total);
 	return 0;
 }
