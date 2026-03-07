@@ -1,0 +1,8 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+#include<stdio.h>
+int main()
+{
+	int a = 5 % 2;				//ษฬ2ำเ1
+	printf("a = %d\n", a);
+	return 0;
+}
