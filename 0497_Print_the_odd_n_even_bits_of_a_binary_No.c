@@ -1,0 +1,1 @@
+#define _CRT_SECURE_NO_WARNINGS 1#include<stdio.h>void Print(){}int main(){	int m = 0;	scanf("%d", &m);	Print(m);	return 0;}
