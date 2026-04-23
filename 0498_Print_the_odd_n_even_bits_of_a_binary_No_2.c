@@ -1,0 +1,1 @@
+#define _CRT_SECURE_NO_WARNINGS 1#include<stdio.h>void Print(){	int m = 0;	int i = 0;	printf("Odd bits: \n");	for (i = 30; i >= 0; i -= 2)	{		printf("%d", (m >> i) & 1);	}	printf("\n");	printf("Even bits: \n");	for (i = 31; i >= 1; i -= 2)	{		printf("%d", (m >> i) & 1);	}	printf("\n");}int main(){	int m = 0;	scanf("%d", &m);	Print(m);	return 0;}
