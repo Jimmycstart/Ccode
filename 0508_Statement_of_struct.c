@@ -1,0 +1,1 @@
+#define _CRT_SECURE_NO_WARNINGS 1#include<stdio.h>struct Stu{	char name[20];	short age;	char tele[12];	char sex[5];}s1, s2, s3;int main(){	struct Stu s;	return 0;}
