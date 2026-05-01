@@ -1,0 +1,1 @@
+#define _CRT_SECURE_NO_WARNINGS 1#include<stdio.h>int Add(int x, int y){	return x + y;}int main(){	printf("hehe\n");	int a = 20;	int b = 10;	int c = Add(a, b);	return 0;}
