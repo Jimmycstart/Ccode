@@ -1,0 +1,1 @@
+#define _CRT_SECURE_NO_WARNINGS 1#include<stdio.h>int main(){	const int num = 10;	const int* p = &num;	*p = 20;	int n = 100;	p = &n;	printf("%d\n", num);	return 0;}
