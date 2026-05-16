@@ -1,0 +1,1 @@
+#define _CRT_SECURE_NO_WARNINGS 1#include<stdio.h>void my_strcpy(char* dest, const char* src){	char* ret = dest;	assert(dest != NULL);	assert(src != NULL);	while (*dest++ = *src++)	{		;	}	return ret;}int main(){	char arr1[] = "##################";	char arr2[] = "bit";	my_strcpy(arr1, arr2);	printf("%s\n", arr1);	printf("%s\n", arr2);	return 0;}
