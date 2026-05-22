@@ -1,0 +1,1 @@
+#define _CRT_SECURE_NO_WARNINGS 1#include<stdio.h>check_sys(){	int a = 1;	char* p = (char*)&a;	if (*p == 1)	{		return 1;	}	else		return 0;}int main(){	int ret = check_sys();	if (ret == 1)	{		printf("Small end\n");	}	else	{		printf("Large end\n");	}	return 0;}
