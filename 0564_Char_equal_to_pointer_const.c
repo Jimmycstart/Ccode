@@ -1,0 +1,1 @@
+#define _CRT_SECURE_NO_WARNINGS 1#include<stdio.h>int main(){	const char* p = (char*)"abcdef";	*p = 'w';	printf("%c\n", *p);	printf("%s\n", p);	return 0;}
