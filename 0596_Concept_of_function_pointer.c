@@ -1,0 +1,1 @@
+#define _CRT_SECURE_NO_WARNINGS 1#include<stdio.h>void Print(char* str){	printf("%s\n", str);}int main(){	void (*p)(char*) = Print;	(*p)("hello bit");	return 0;}
